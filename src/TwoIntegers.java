@@ -6,8 +6,8 @@ public class TwoIntegers
 	
 	public TwoIntegers()
 	{
-		num1 = 4;
-		num2 = 3;
+		num1 = 0;
+		num2 = 0;
 	}
 	public int getNum1() 
 	{
