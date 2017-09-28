@@ -1,6 +1,6 @@
 
 public class TwoIntegers216 
-{
+{/*
 	private int num1;
 	private int num2;
 	
@@ -29,5 +29,5 @@ public class TwoIntegers216
 	public void setNum2(int num2) 
 	{
 		this.num2 = num2;
-	}
+	}*/
 }

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class TwoIntegersRunner 
-{
+{/*
 	private static Scanner input;
 
 	public static void main(String[] args)
@@ -28,4 +28,4 @@ public class TwoIntegersRunner
 		
 		
 	}
-}
+*/}

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class TwoIntegers216Runner 
-{
+{/*
 	public static void main(String[] args)
 	{
 		Scanner compare = new Scanner(System.in);
@@ -20,5 +20,5 @@ public class TwoIntegers216Runner
 			System.out.printf("%d is greater than %d\n", num1, num2);
 		if (num1 < num2)
 			System.out.printf("%d is less than %d\n", num1, num2);
-	}
+	}*/
 }
