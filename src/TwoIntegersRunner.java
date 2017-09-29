@@ -7,7 +7,8 @@ public class TwoIntegersRunner
 	public static void main(String[] args)
 	{
 		input = new Scanner(System.in);
-		int num1;
+		
+		/*int num1;
 		int num2;
 		int sum;
 		int difference;
@@ -25,7 +26,6 @@ public class TwoIntegersRunner
 		quotient = num1 / num2;
 
 		System.out.printf("Sum is %d\nDifference is %d\nProduct is %d\nQuotient is %d\n", sum, difference, product, quotient);
-		
-		
+		*/
 	}
 }

@@ -9,6 +9,63 @@ public class TwoIntegers
 		num1 = 0;
 		num2 = 0;
 	}
+	public String aritmetic()
+	{
+		String arithmetic = " ";
+		arithmetic = "\n added" + (num1 + num2);
+		arithmetic = arithmetic + "\n subtracted " + (num1 - num2);
+		arithmetic = arithmetic + "\n multiplied " + (num1 * num2);
+		arithmetic = arithmetic + "\n divided " + (num1 / num2);
+		return arithmetic;
+	}
+	public String compare()
+	{
+		if(num1 > num2)
+		{
+			return num1 + " is bigger than " + num2;
+		}
+		else if(num1 < num2)
+		{
+			return num2 + " is bigger than " + num1;
+		}
+		else
+		{
+			return num1 + " and " + num2 + " are the same number";
+		}
+	}
+	public boolean even()
+	{
+		if(num1 % 2 == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	public boolean evenTwo()
+	{
+		if(num2 % 2 == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	public boolean multiples()
+	{
+		if(num1 % num2 == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
 	public int getNum1() 
 	{
 		return num1;
