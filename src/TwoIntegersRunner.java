@@ -8,24 +8,20 @@ public class TwoIntegersRunner
 	{
 		input = new Scanner(System.in);
 		
-		/*int num1;
-		int num2;
-		int sum;
-		int difference;
-		int product;
-		int quotient;
-		
 		System.out.print("Enter first integer \n");
-		num1 = input.nextInt();
+		int num1 = input.nextInt();
 		System.out.print("Enter second integer \n");
-		num2 = input.nextInt();
+		int num2 = input.nextInt();
 		
-		sum = num1 + num2;
-		difference = num1 - num2;
-		product = num1 * num2;
-		quotient = num1 / num2;
-
-		System.out.printf("Sum is %d\nDifference is %d\nProduct is %d\nQuotient is %d\n", sum, difference, product, quotient);
-		*/
+		TwoIntegers calculate = new TwoIntegers(num1, num2);
+		String genMath = calculate.arithmetic();
+		System.out.println(genMath);
+		calculate.compare();
+		calculate.even();
+		calculate.even2();
+		calculate.multiples();
+		calculate.multiples2();
+		
+		System.out.println();
 	}
 }

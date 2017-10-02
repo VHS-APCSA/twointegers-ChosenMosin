@@ -9,7 +9,12 @@ public class TwoIntegers
 		num1 = 0;
 		num2 = 0;
 	}
-	public String aritmetic()
+	public TwoIntegers(int num1, int num2)
+	{
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+	public String arithmetic()
 	{
 		String arithmetic = " ";
 		arithmetic = "\n added" + (num1 + num2);
@@ -44,7 +49,7 @@ public class TwoIntegers
 			return false;
 		}
 	}
-	public boolean evenTwo()
+	public boolean even2()
 	{
 		if(num2 % 2 == 0)
 		{
@@ -58,6 +63,17 @@ public class TwoIntegers
 	public boolean multiples()
 	{
 		if(num1 % num2 == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	public boolean multiples2()
+	{
+		if(num2 % num1 == 0)
 		{
 			return true;
 		}
