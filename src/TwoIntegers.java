@@ -17,7 +17,7 @@ public class TwoIntegers
 	public String arithmetic()
 	{
 		String arithmetic = " ";
-		arithmetic = "\n added" + (num1 + num2);
+		arithmetic = "\n added " + (num1 + num2);
 		arithmetic = arithmetic + "\n subtracted " + (num1 - num2);
 		arithmetic = arithmetic + "\n multiplied " + (num1 * num2);
 		arithmetic = arithmetic + "\n divided " + (num1 / num2);

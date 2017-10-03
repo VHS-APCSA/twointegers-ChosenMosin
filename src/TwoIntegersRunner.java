@@ -16,11 +16,16 @@ public class TwoIntegersRunner
 		TwoIntegers calculate = new TwoIntegers(num1, num2);
 		String genMath = calculate.arithmetic();
 		System.out.println(genMath);
-		calculate.compare();
-		calculate.even();
-		calculate.even2();
-		calculate.multiples();
-		calculate.multiples2();
+		String comparison = calculate.compare();
+		System.out.println(comparison);
+		boolean oddOrEven = calculate.even();
+		System.out.println(oddOrEven);
+		boolean secondOddOrEven = calculate.even2();
+		System.out.println(secondOddOrEven);
+		boolean factors = calculate.multiples();
+		System.out.println(factors);
+		boolean secondFactors = calculate.multiples2();
+		System.out.println(secondFactors);
 		
 		System.out.println();
 	}
